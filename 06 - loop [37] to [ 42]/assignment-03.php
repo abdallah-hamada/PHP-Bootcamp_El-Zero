@@ -14,3 +14,10 @@ while ($num < 520) {
     echo "</div>";
 
 }
+//***************************
+ <?php
+        for ( $num = 2;$num < 520;$num = (2 * $num) + 2) {
+            if ($num == 2){--$num;}
+            echo $num .'</br>' ;
+        }
+        ?>
